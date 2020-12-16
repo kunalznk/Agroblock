@@ -5,6 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Componetns/home/home.component';
 
+import {MatButtonModule} from '@angular/material/button';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {MatIconModule} from '@angular/material/icon';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatSelectModule} from '@angular/material/select';
+
+
+
+
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
 
 @NgModule({
   declarations: [
@@ -15,6 +29,13 @@ import { HomeComponent } from './Componetns/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatButtonModule,
+    MatFormFieldModule,
+     MatInputModule,
+     MatChipsModule,
+     MatIconModule,
+     MatSelectModule,
+    BrowserAnimationsModule, 
    
   ],
   providers: [],
